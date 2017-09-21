@@ -4,8 +4,6 @@ M.A. Alger, J.K. Banfield, C.S. Ong, O.I. Wong, L.Rudnick, R.P. Norris
 
 _submitted to Monthly Notices of the Royal Astronomical Society: day-month-year_
 
-![RGZ avatar]({{ site.baseurl }}/assets/radiogzavatar.png){:height="36px" width="36px"}
-
 ### Abstract
 We consider the problem of determining the infrared host galaxies of radio emissions detected
 in wide-area radio surveys. We propose a method for reducing the cross identification task to

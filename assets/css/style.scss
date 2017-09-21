@@ -12,3 +12,15 @@ header > h1:after {
     content: '';
     margin:0 auto;
 }
+
+header {
+  /* Override the default padding and width so we can fit the RGZ title.
+     These should still add up to the same value; just more space for text. */
+  padding: 34px 10px 22px 35px;
+  width: 200px;
+}
+
+header > h1 {
+  /* Shrink the font size to fit the RGZ title. */
+  font-size: 23px;
+}

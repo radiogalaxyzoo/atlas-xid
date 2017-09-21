@@ -2,6 +2,11 @@
 ---
 
 @import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+
+body {
+  font-family: "Open Sans";
+}
 
 header > h1:before {
   width: 100px;
@@ -25,4 +30,9 @@ header {
 h1.header { /* This selector is equally specific as the default one. */
   /* Shrink the font size to fit the RGZ title. */
   font-size: 23px;
+  font-family: Montserrat, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: Montserrat, sans-serif;
 }

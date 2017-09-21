@@ -1,4 +1,4 @@
-![RGZ avatar]({{ site.url }}/assets/radiogzavatar.jpg)
+![RGZ avatar]({{ site.url }}/assets/radiogzavatar.png)
 # Machine learning methods for radio source host galaxy cross-identification
 
 M.A. Alger, J.K. Banfield, C.S. Ong, O.I. Wong, L.Rudnick, R.P. Norris

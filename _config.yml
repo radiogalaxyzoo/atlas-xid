@@ -1,5 +1,5 @@
 title: Radio Galaxy Zoo
-description: ATLAS cross-id
+description: ATLAS cross-id ![RGZ avatar]({{ site.baseurl }}/assets/radiogzavatar.png){:height="50px" width="50px"}
 theme: jekyll-theme-dinky
 show_downloads: false
 baseurl: /atlas-xid

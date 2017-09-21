@@ -1,4 +1,6 @@
-# Machine learning methods for radio host cross-identification
+## Machine learning methods for radio source host galaxy cross-identification
+# M.A. Alger, J.K. Banfield, C.S. Ong, O.I. Wong, L.Rudnick, R.P. Norris
+# submitted to Monthly Notices of the Royal Astronomical Society
 
 We consider the problem of determining the infrared host galaxies of radio emissions detected
 in wide-area radio surveys. We propose a method for reducing the cross identification task to

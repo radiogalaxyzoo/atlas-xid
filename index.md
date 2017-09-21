@@ -4,7 +4,7 @@ M.A. Alger, J.K. Banfield, C.S. Ong, O.I. Wong, L.Rudnick, R.P. Norris
 
 _submitted to Monthly Notices of the Royal Astronomical Society: day-month-year_
 
-![RGZ avatar]({{ site.url }}/assets/radiogzavatar.png)
+![RGZ avatar]({{ site.baseurl }}/assets/radiogzavatar.png)
 
 ### Abstract
 We consider the problem of determining the infrared host galaxies of radio emissions detected

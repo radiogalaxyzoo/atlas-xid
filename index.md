@@ -1,9 +1,10 @@
-![RGZ avatar]({{ https://radiogalaxyzoo.github.io/atlas-xid/ }}/assets/radiogzavatar.png)
 # Machine learning methods for radio source host galaxy cross-identification
 
 M.A. Alger, J.K. Banfield, C.S. Ong, O.I. Wong, L.Rudnick, R.P. Norris
 
 _submitted to Monthly Notices of the Royal Astronomical Society: day-month-year_
+
+![RGZ avatar]({{ site.url }}/assets/radiogzavatar.png)
 
 ### Abstract
 We consider the problem of determining the infrared host galaxies of radio emissions detected
@@ -24,3 +25,4 @@ ation as our method for reducing cross identification to binary classification r
 sources are isolated from other sources. This assumption breaks down particularly with high
 surface brightness sensitivity surveys. We suggest that source identifications and radio mor-
 phology information would resolve this problem.
+

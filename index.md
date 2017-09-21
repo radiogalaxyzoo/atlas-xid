@@ -3,13 +3,14 @@
 
 M.A. Alger, J.K. Banfield, C.S. Ong, O.I. Wong, L.Rudnick, R.P. Norris
 
-_submitted to Monthly Notices of the Royal Astronomical Society_
+_submitted to Monthly Notices of the Royal Astronomical Society: day-month-year_
 
+### Abstract
 We consider the problem of determining the infrared host galaxies of radio emissions detected
 in wide-area radio surveys. We propose a method for reducing the cross identification task to
 binary classification, a standard machine learning task. Binary classification is well under-
 stood and well supported by machine learning software. We test our methods on the radio
-sources detected in the 1.4 GHz Australian Telescope Large Area Survey (ATLAS) observa-
+sources detected in the 1.4 GHz Australia Telescope Large Area Survey (ATLAS) observa-
 tions of the Chandra Deep Field - South (CDFS) and the ESO Large Area ISO Survey - South
 1 (ELAIS-S1) fields, and cross identify them with Spitzer Wide-area Infrared Extragalactic
 survey (SWIRE). We compared two categories of labels: expert cross-identifications of CDFS

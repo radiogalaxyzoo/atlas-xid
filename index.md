@@ -1,6 +1,6 @@
 # Machine learning methods for radio source host galaxy cross-identification
 
-M.A. Alger, J.K. Banfield, C.S. Ong, O.I. Wong, L.Rudnick, R.P. Norris
+M.&nbsp;J.&nbsp;Alger, J.&nbsp;K.&nbsp;Banfield, C.&nbsp;S.&nbsp;Ong, O.&nbsp;I.&nbsp;Wong, L.&nbsp;Rudnick, R.&nbsp;P.&nbsp;Norris
 
 _submitted to Monthly Notices of the Royal Astronomical Society: day-month-year_
 

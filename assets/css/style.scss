@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-header > h1:after {
+header > h1:before {
   width: 100px;
   height: 100px;
   background-image: url({{site.baseurl}}/assets/radiogzavatar.png);

@@ -20,7 +20,7 @@ header {
   width: 200px;
 }
 
-header > h1 {
+h1.header { /* This selector is equally specific as the default one. */
   /* Shrink the font size to fit the RGZ title. */
   font-size: 23px;
 }

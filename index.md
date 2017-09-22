@@ -4,8 +4,8 @@ M.&nbsp;J.&nbsp;Alger, J.&nbsp;K.&nbsp;Banfield, C.&nbsp;S.&nbsp;Ong, O.&nbsp;I.
 
 _submitted to Monthly Notices of the Royal Astronomical Society: day-month-year_
 
-### Supplementary Material
-
+## Supplementary Material
+More information on ...
 
 ### Abstract
 We consider the problem of determining the infrared host galaxies of radio emissions detected

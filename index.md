@@ -7,6 +7,7 @@ _submitted to Monthly Notices of the Royal Astronomical Society: day-month-year_
 ## Supplementary Material
 
 *Appendix A: Tables of Accuracies*
+In Table A1 and Table A3 we list the balanced accuracies of classifiers on CDFS and ELAIS S1 respectively, averaged over each quadrant. In Table A2 and Table A4 we list the accuracies of our method on the cross-identification tas on CDFS and ELAIS S1 respectively, averaged over each quadrant.
 
 *CDFS*
 

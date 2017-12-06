@@ -27,3 +27,10 @@ In Table B1 and Table B3 we list the predicted class probabilities for each SWIR
 - Table B2: Predicted cross-identifications for CDFS
 - Table B3: Predicted class probabilities for ELAIS-S1
 - Table B4: Predicted cross-identifications for ELAIS-S1
+
+## Running the Experiments
+
+1. Clone `chengsoonong/crowdastro` and `chengsoonong/crowdastro-projects`.
+2. Edit `crowdastro/crowdastro/crowdastro.json` to point to the data files. Run `python3 -m crowdastro.import_data --ir swire` to import the SWIRE and ATLAS datasets. This results in `crowdastro.h5`, and so can be skipped if you already have this file.
+3. Run `crowdastro/notebooks/100_radio_table.ipynb` to build `one-table-to-rule-them-all.tbl`, which is a cross-identified table of the three ATLAS catalogues.
+4. Edit `crowdastro-projects/scripts/pipeline.py` to point to the data paths, then run it. This produces all prediction and cross-identification output files.

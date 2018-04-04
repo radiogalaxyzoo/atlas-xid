@@ -1,32 +1,57 @@
 # Machine learning methods for radio source host galaxy cross-identification
 
-M.&nbsp;J.&nbsp;Alger, J.&nbsp;K.&nbsp;Banfield, C.&nbsp;S.&nbsp;Ong, O.&nbsp;I.&nbsp;Wong, L.&nbsp;Rudnick, R.&nbsp;P.&nbsp;Norris
+M.&nbsp;J.&nbsp;Alger, J.&nbsp;K.&nbsp;Banfield, C.&nbsp;S.&nbsp;Ong, L.&nbsp;Rudnick, O.&nbsp;I.&nbsp;Wong, C.&nbsp;Wolf, H.&nbsp;Andernach, R.&nbsp;P.&nbsp;Norris, S.&nbsp;S.&nbsp;Shabala
 
 _submitted to Monthly Notices of the Royal Astronomical Society: day-month-year_
 
 ## Abstract
 
-Radio source host galaxy cross-identification is the problem of determining the host galaxies of radio sources detected in wide-area radio surveys. We propose a method for reducing the cross identification task to the standard machine learning task of binary classification. We apply our methods to the 1.4&nbsp;GHz Australian Telescope Large Area Survey (ATLAS) observations of the *Chandra* Deep Field South (CDFS) and the ESO Large Area ISO Survey South 1 (ELAIS-S1) fields, cross-identifying them with the *Spitzer* Wide-area Infrared Extragalactic survey (SWIRE). We compare two sets of training data: expert cross-identifications of CDFS from the initial ATLAS data release and crowdsourced cross-identifications of CDFS from Radio Galaxy Zoo. Our results show that the cross-identification accuracy of the predictor trained on Radio Galaxy Zoo cross-identifications is comparable to the predictor trained on expert cross-identifications, demonstrating the value of crowdsourced training data.
+We consider the problem of determining the host galaxies of radio sources by
+  cross-identification. This has traditionally been done by eye and expert
+  judgement, a method that will be intractable for wide-area radio surveys
+  like the Evolutionary Map of the Universe (EMU). Automated
+  cross-identification will be critical for these future surveys, and machine
+  learning may provide the tools to develop such methods. We apply a standard
+  approach from computer vision to cross-identification, introducing one
+  possible way of automating this problem, and explore the pros and cons of
+  this approach. We apply our method to the 1.4&nbsp;GHz Australian Telescope
+  Large Area Survey (ATLAS) observations of the *Chandra* Deep Field
+  South (CDFS) and the ESO Large Area ISO Survey South 1 (ELAIS-S1) fields by
+  cross-identifying them with the *Spitzer* Wide-area Infrared
+  Extragalactic (SWIRE) survey. We train our method with two sets of
+  data: expert cross-identifications of CDFS from the initial ATLAS data
+  release and crowdsourced cross-identifications of CDFS from Radio Galaxy
+  Zoo. We found that a simple strategy of cross-identifying a radio component
+  with the nearest galaxy performs comparably to our more complex machine learning methods, though our estimated best-case performance is near 100 per cent.
+  ATLAS contains 87 complex radio sources that have been cross-identified by experts,
+  so our method does not see enough
+  complex examples to learn how to cross-identify them accurately. Much larger
+  datasets are therefore required for training methods like ours. We also show
+  that training our method on Radio Galaxy Zoo cross-identifications gives
+  comparable results to training our method on expert cross-identifications,
+  demonstrating the value of crowdsourced training data.
 
-## Supplementary Material
+### Appendix C: SWIRE Object Scores
 
-### Appendix A: Tables of Accuracies
+In Table C1 and Table C2 we list the scores for each SWIRE infrared object in CDFS and ELAIS-S1 respectively.
 
-In Table A1 and Table A3 we list the balanced accuracies of classifiers on the galaxy classification task for CDFS and ELAIS-S1 respectively, averaged over each quadrant. In Table A2 and Table A4 we list the accuracies of our method on the cross-identification task for CDFS and ELAIS-S1 respectively, averaged over each quadrant.
+- Table C1: Scores output by our trained classifiers for SWIRE&nbsp;CDFS candidate host galaxies.
+- Table C2: Scores output by our trained classifiers for SWIRE&nbsp;ELAIS-S1 candidate host galaxies.
 
-- Table A1: Performance on the galaxy classification task for CDFS
-- Table A2: Performance on the cross-identification task for CDFS
-- Table A3: Performance on the galaxy classification task for ELAIS-S1
-- Table A4: Performance on the cross-identification task for ELAIS-S1
+### Appendix D: ATLAS Component Cross-identifications
 
-### Appendix B: Tables of Predictions
+In Table D1 and Table D2 we list the SWIRE cross-identifications of each ATLAS radio component in CDFS and ELAIS-S1 respectively.
 
-In Table B1 and Table B3 we list the predicted class probabilities for each SWIRE infrared object in CDFS and ELAIS-S1 respectively. In Table B2 and Table B3 we list the predicted cross-identifications for each ATLAS DR1 radio component in CDFS and ELAIS-S1 respectively.
+- Table C1: Cross-identifications for ATLAS&nbsp;CDFS components.
+- Table C2: Cross-identifications for ATLAS&nbsp;ELAIS-S1 components.
 
-- Table B1: Predicted class probabilities for CDFS
-- Table B2: Predicted cross-identifications for CDFS
-- Table B3: Predicted class probabilities for ELAIS-S1
-- Table B4: Predicted cross-identifications for ELAIS-S1
+### Appendix E: Cross-identification figures
+
+Figure E1 (a)&ndash;(ra) shows cross-identifications of resolved sources. As an example of the full set of figures, we show Figure E1(qy).
+
+**Figure E1(qy)**
+
+![Figure E1(qy)](/atlas-xid/assets/example_sorted_467_186.pdf.png)
 
 ## Running the Experiments
 
